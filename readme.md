@@ -1,5 +1,11 @@
 (Recommended)
 In the project folder - you must create logs, dags folders befoe running docker compose up
+
+# The main objective of this project is to run airflow with a autogluon DAG.
+
+## The autogluon framework is a automl framework designed to create automatic experiments for ml workloads. By combining airflow and autogluon we get orchestration powers of airflow and automl capabilities from autogluon
+
+
 <!-- ensure that the docker-compose.yaml has build:. in it and the Dockerfile is in same directory -->
 <!-- if building image for first time  -->
 <!-- then use  -->
