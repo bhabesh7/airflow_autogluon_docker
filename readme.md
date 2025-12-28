@@ -1,5 +1,5 @@
-
-
+(Recommended)
+In the project folder - you must create logs, dags folders befoe running docker compose up
 <!-- ensure that the docker-compose.yaml has build:. in it and the Dockerfile is in same directory -->
 <!-- if building image for first time  -->
 <!-- then use  -->
