@@ -1,0 +1,11 @@
+# List your DAG runtime dependencies here.
+# Example: to support your autogluon DAG, add autogluon (note: autogluon is large):
+# autogluon
+
+# Add packages you need, e.g.:
+pandas
+# numpy
+# scikit-learn
+
+# Uncomment the next line to install autogluon (build will take long):
+autogluon

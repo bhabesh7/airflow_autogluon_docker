@@ -1,0 +1,308 @@
+[2025-12-25T03:47:53.793+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:47:53.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T03:47:53.795+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:47:53.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:47:54.420+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:47:54.419+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T03:47:54.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:47:54.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.639 seconds
+[2025-12-25T03:48:25.072+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:25.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T03:48:25.074+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:48:25.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:25.177+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:48:25.177+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T03:48:25.177+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:25.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.116 seconds
+[2025-12-25T03:48:55.350+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:55.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T03:48:55.353+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:48:55.353+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:55.465+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:48:55.464+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T03:48:55.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:48:55.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.127 seconds
+[2025-12-25T03:49:25.634+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:49:25.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T03:49:25.635+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:49:25.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:49:25.731+0000] {logging_mixin.py:188} INFO - [2025-12-25T03:49:25.730+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T03:49:25.731+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T03:49:25.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.106 seconds
+[2025-12-25T04:49:17.552+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T04:49:17.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T04:49:17.554+0000] {logging_mixin.py:188} INFO - [2025-12-25T04:49:17.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T04:49:17.661+0000] {logging_mixin.py:188} INFO - [2025-12-25T04:49:17.660+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T04:49:17.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T04:49:17.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.119 seconds
+[2025-12-25T05:06:01.360+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:06:01.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:06:01.364+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:06:01.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:06:01.472+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:06:01.471+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:06:01.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:06:01.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.122 seconds
+[2025-12-25T05:22:29.115+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:22:29.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:22:29.118+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:22:29.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:22:29.255+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:22:29.254+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:22:29.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:22:29.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.196 seconds
+[2025-12-25T05:24:36.112+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:24:36.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:24:36.114+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:24:36.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:24:36.227+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:24:36.227+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:24:36.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:24:36.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.127 seconds
+[2025-12-25T05:41:38.965+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:41:38.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:41:38.966+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:41:38.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:41:39.107+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:41:39.105+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:41:39.107+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:41:39.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.155 seconds
+[2025-12-25T05:43:20.080+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:20.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:43:20.084+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:43:20.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:20.193+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:43:20.192+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:43:20.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:20.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.124 seconds
+[2025-12-25T05:43:50.422+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:50.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:43:50.425+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:43:50.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:50.538+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:43:50.537+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:43:50.538+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:43:50.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.128 seconds
+[2025-12-25T05:44:20.863+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:20.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:44:20.865+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:44:20.865+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:20.978+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:44:20.977+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:44:20.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:20.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.128 seconds
+[2025-12-25T05:44:51.455+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:51.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:44:51.457+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:44:51.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:51.566+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:44:51.566+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:44:51.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:44:51.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.123 seconds
+[2025-12-25T05:53:57.897+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:53:57.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:53:57.899+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:53:57.899+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:53:58.025+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:53:58.024+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:53:58.025+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:53:58.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.137 seconds
+[2025-12-25T05:54:28.249+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:28.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:54:28.251+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:54:28.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:28.359+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:54:28.358+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:54:28.359+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:28.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.119 seconds
+[2025-12-25T05:54:58.616+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:58.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:54:58.620+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:54:58.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:58.727+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:54:58.727+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:54:58.727+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:54:58.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.123 seconds
+[2025-12-25T05:55:28.980+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:28.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:55:28.983+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:55:28.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:29.095+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:55:29.095+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:55:29.096+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:29.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.127 seconds
+[2025-12-25T05:55:59.358+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:59.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:55:59.361+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:55:59.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:59.472+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:55:59.471+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:55:59.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:55:59.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.126 seconds
+[2025-12-25T05:56:29.664+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:56:29.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:56:29.670+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:56:29.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:56:29.781+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:56:29.780+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:56:29.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:56:29.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.131 seconds
+[2025-12-25T05:56:59.969+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:56:59.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:56:59.971+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:56:59.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:57:00.071+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:57:00.070+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:57:00.071+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:57:00.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.111 seconds
+[2025-12-25T05:57:30.301+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:57:30.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:57:30.306+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:57:30.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:57:30.416+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:57:30.416+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:57:30.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:57:30.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.127 seconds
+[2025-12-25T05:58:00.670+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:58:00.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/autogluon_dag.py for tasks to queue
+[2025-12-25T05:58:00.672+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:58:00.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:58:00.780+0000] {logging_mixin.py:188} INFO - [2025-12-25T05:58:00.780+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/autogluon_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/autogluon_dag.py", line 5, in <module>
+    from autogluon.tabular import TabularPredictor
+ModuleNotFoundError: No module named 'autogluon'
+[2025-12-25T05:58:00.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/autogluon_dag.py
+[2025-12-25T05:58:00.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/autogluon_dag.py took 0.123 seconds

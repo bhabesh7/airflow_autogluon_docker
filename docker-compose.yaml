@@ -1,0 +1,57 @@
+# version: "3.8"
+
+x-airflow-common:
+  &airflow-common
+  # use image when referencing official Airflow image
+  #  or self built image with autogluon
+  # image: apache/airflow:2.9.3
+  # use build to build custom image with autogluon (defined in dockerfile)
+  build: .
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    # 👇 Auto-create admin user
+    _AIRFLOW_WWW_USER_USERNAME: admin
+    _AIRFLOW_WWW_USER_PASSWORD: admin
+    _AIRFLOW_WWW_USER_FIRSTNAME: Admin
+    _AIRFLOW_WWW_USER_LASTNAME: User
+    _AIRFLOW_WWW_USER_ROLE: Admin
+    _AIRFLOW_WWW_USER_EMAIL: admin@example.com
+  volumes:
+    - /Volumes/bhabesh_ssd/airflow_docker/dags:/opt/airflow/dags
+    - /Volumes/bhabesh_ssd/airflow_docker/logs:/opt/airflow/logs
+    # - /var/run/docker.sock:/var/run/docker.sock
+  depends_on:
+    - postgres
+
+services:
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - /Volumes/bhabesh_ssd/airflow_docker/postgres_data:/var/lib/postgresql/data
+
+  airflow-init:
+    <<: *airflow-common
+    command: >
+      bash -c "airflow db migrate && airflow users create --username \"$${_AIRFLOW_WWW_USER_USERNAME}\" --password \"$${_AIRFLOW_WWW_USER_PASSWORD}\" --firstname \"$${_AIRFLOW_WWW_USER_FIRSTNAME}\" --lastname \"$${_AIRFLOW_WWW_USER_LASTNAME}\" --role \"$${_AIRFLOW_WWW_USER_ROLE}\" --email \"$${_AIRFLOW_WWW_USER_EMAIL}\""
+
+  airflow-webserver:
+    <<: *airflow-common
+    # Ensure DB is initialized/upgraded before starting the webserver.
+    # Running `airflow db upgrade` is idempotent and will be a no-op if migrations are applied.
+    command: >
+      bash -c "airflow db migrate && airflow webserver"
+    ports:
+      - "8080:8080"
+
+  airflow-scheduler:
+    <<: *airflow-common
+    # Also run a DB upgrade before the scheduler to avoid init race conditions.
+    command: >
+      bash -c "airflow db migrate && airflow scheduler"
